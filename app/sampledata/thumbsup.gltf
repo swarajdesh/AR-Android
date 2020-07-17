@@ -1,0 +1,354 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 1251,
+      "max": [
+        0.48962175846099854,
+        0.9258700609207153,
+        0.5297855138778687
+      ],
+      "min": [
+        -0.45060989260673523,
+        -0.5061862468719482,
+        -0.3952528238296509
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 15012,
+      "componentType": 5126,
+      "count": 1251,
+      "max": [
+        0.997594952583313,
+        0.9999926686286926,
+        0.9988430738449097
+      ],
+      "min": [
+        -0.9921144247055054,
+        -0.9998170733451843,
+        -0.9970137476921082
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 30024,
+      "componentType": 5126,
+      "count": 1251,
+      "max": [
+        0.9085001349449158,
+        0.9524457454681396
+      ],
+      "min": [
+        0.0557694286108017,
+        0.1668003797531128
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 6663,
+      "max": [
+        1250.0
+      ],
+      "min": [
+        0.0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "ClayGL - fbx2gltf",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 40032,
+      "byteOffset": 0,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 13326,
+      "byteOffset": 40032,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1,
+      "byteOffset": 0
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 53364,
+      "uri": "thumbsup.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extras": {
+    "clayViewerConfig": {
+      "preZ": true,
+      "materials": [
+        {
+          "name": "blinn1",
+          "transparent": false,
+          "color": "#ffffff",
+          "emission": "#000000",
+          "alpha": 1,
+          "alphaCutoff": 0,
+          "emissionIntensity": 1,
+          "uvRepeat": {
+            "0": 1,
+            "1": 1
+          },
+          "parallaxOcclusionScale": 0.02,
+          "diffuseMap": "emoji_thumbsup_diffuse.png",
+          "normalMap": "",
+          "parallaxOcclusionMap": "",
+          "emissiveMap": "",
+          "metalness": 0,
+          "roughness": 1,
+          "metalnessMap": "",
+          "roughnessMap": "",
+          "type": "pbrMetallicRoughness",
+          "targetMeshes": [
+            "emoji_thumbsup_lo1:Group1"
+          ]
+        }
+      ],
+      "takes": [],
+      "textureFlipY": false,
+      "zUpToYUp": false,
+      "shadow": true,
+      "environment": "auto",
+      "viewControl": {
+        "center": [
+          8.46213174680332,
+          -1.7343355211925817,
+          -1.3941424551210662
+        ],
+        "alpha": 18.199999847155393,
+        "beta": -215.43099489530263,
+        "distance": 23.335645157395486
+      },
+      "ground": {
+        "show": true,
+        "grid": false
+      },
+      "mainLight": {
+        "shadow": true,
+        "shadowQuality": "medium",
+        "intensity": 0.8,
+        "color": "#fff",
+        "alpha": 45,
+        "beta": 45,
+        "$padAngle": [
+          0.25,
+          0.5
+        ]
+      },
+      "secondaryLight": {
+        "shadow": true,
+        "shadowQuality": "medium",
+        "intensity": 0,
+        "color": "#fff",
+        "alpha": 60,
+        "beta": -50,
+        "$padAngle": [
+          -0.2777777777777778,
+          0.6666666666666666
+        ]
+      },
+      "tertiaryLight": {
+        "shadow": true,
+        "shadowQuality": "medium",
+        "intensity": 0,
+        "color": "#fff",
+        "alpha": 89,
+        "beta": 0,
+        "$padAngle": [
+          0,
+          0.9888888888888889
+        ]
+      },
+      "ambientLight": {
+        "intensity": 0,
+        "color": "#fff"
+      },
+      "ambientCubemapLight": {
+        "texture": "./asset/texture/pisa.hdr",
+        "$texture": "pisa",
+        "$textureOptions": [
+          "pisa",
+          "Barce_Rooftop_C",
+          "Factory_Catwalk",
+          "Grand_Canyon_C",
+          "Ice_Lake",
+          "Hall",
+          "Old_Industrial_Hall"
+        ],
+        "exposure": 3,
+        "diffuseIntensity": 0.3,
+        "specularIntensity": 0.5
+      },
+      "postEffect": {
+        "enable": true,
+        "bloom": {
+          "enable": true,
+          "intensity": 0.1
+        },
+        "depthOfField": {
+          "enable": false,
+          "focalDistance": 4,
+          "focalRange": 1,
+          "blurRadius": 5,
+          "fstop": 10,
+          "quality": "medium",
+          "$qualityOptions": [
+            "low",
+            "medium",
+            "high",
+            "ultra"
+          ]
+        },
+        "screenSpaceAmbientOcclusion": {
+          "enable": false,
+          "radius": 1.5,
+          "quality": "medium",
+          "intensity": 1,
+          "$qualityOptions": [
+            "low",
+            "medium",
+            "high",
+            "ultra"
+          ]
+        },
+        "screenSpaceReflection": {
+          "enable": false,
+          "physical": false,
+          "quality": "medium",
+          "maxRoughness": 0.8,
+          "$qualityOptions": [
+            "low",
+            "medium",
+            "high",
+            "ultra"
+          ]
+        },
+        "colorCorrection": {
+          "enable": true,
+          "exposure": 0,
+          "brightness": 0,
+          "contrast": 1,
+          "saturation": 1,
+          "lookupTexture": ""
+        },
+        "FXAA": {
+          "enable": false
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "uri": "image0.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "name": "blinn1",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 1.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "emoji_thumbsup_lo1:Group1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 0,
+      "name": "emoji_thumbsup_lo1:Group1"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}
